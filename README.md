@@ -1,0 +1,7 @@
+a = input("Please enter your name: ")
+a = a.lower()
+a = a.title()
+a = a.strip()
+a = a.split(" ")
+a = " ".join(a)
+print(a)
